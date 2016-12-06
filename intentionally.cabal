@@ -51,11 +51,10 @@ library
   exposed-modules: Language.Intentionally
 
   -- Modules included in this library but not exported.
-  other-modules:   Language.Intentionally.Syntax
-                ,  Language.Intentionally.Free
+  other-modules:   Language.Intentionally.Free
 
   -- LANGUAGE extensions used by modules in this package.
-  -- other-extensions:
+  other-extensions:    GADTs
 
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.8 && <4.9, free, mtl
